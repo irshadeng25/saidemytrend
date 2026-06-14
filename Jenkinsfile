@@ -25,7 +25,7 @@ pipeline {                                    // 1  // Defines the start of the 
                                               // Logs a message indicating the start of unit tests
                 sh 'mvn surefire-report:report'  
                                               // Runs the Maven Surefire report to execute unit tests
-                echo "----------- unit test completed ----------"  
+                echo "----------- unit test just completed ----------"  
                                               // Logs a message indicating unit test completion
             }                                 // 7  // Ends the steps block for 'test' stage
         }                                     // 6  // Ends the 'test' stage
